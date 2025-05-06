@@ -31,6 +31,23 @@ header a {
     color: inherit;
 
 }
+h1{
+    font-family:Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#252525; 
+}
+#menu{
+    list-style-type: 0;
+    font-size:  110%;
+    letter-spacing: 4px;
+}
+#menu > li{
+    margin-bottom: 1em;
+}
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
 /*Main*/
 main{
     background:lightcoral;
@@ -41,9 +58,4 @@ main{
 footer{
     background:orange;
 }
-h1{
-    font-family:Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:#252525; 
-}
+
