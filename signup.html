@@ -63,26 +63,26 @@
         >
           <h2><i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!</h2>
           <label for="first-name">First Name</label>
-          <input class="text-input" type="text" id="first-name" required />
-          <br />
+          <input class="text-input" name="first_name" type="text" id="first-name" required>
+          <br>
           <label for="last-name">Last Name</label>
-          <input class="text-input" type="text" id="last-name" required />
-          <br />
+          <input class="text-input" name="last_name" type="text" id="last-name" required>
+          <br>
           <label for="email-address">Email Address</label>
-          <input class="text-input" type="email" id="email-address" required />
-          <br />
+          <input type="email" name="email_address" class="text-input" id="email-address" required >
+          <br>
           <div class="radio-buttons">
             <div>
-              <label for="radio" name="running-preference">Road</label>
-              <input type="radio" id="road" />
+              <label for="radio">Road</label>
+              <input type="radio" name="running-preference" id="road" required checked>
             </div>
             <div>
-              <label for="trail" name="running-preference">Trail</label>
-              <input type="radio" id="trail" />
+              <label for="trail">Trail</label>
+              <input type="radio" name="running-preference" id="trail" required>
             </div>
             <div>
-              <label for="both" name="running-preference">Both</label>
-              <input type="radio" id="both" />
+              <label for="both">Both</label>
+              <input type="radio" name="running-preference" id="both" required>
             </div>
           </div>
           <input type="submit" class="join-button" value="Lets Run!">
